@@ -1,4 +1,4 @@
-## Instalador PowerShell 7 🟪
+## Instalador PowerShell 7 🟦
 
 Esse programa instala versão 7 do PowerShell no Windows usando apenas um comando.
 
