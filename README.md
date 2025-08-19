@@ -8,3 +8,7 @@ Esse programa instala versão 7 do PowerShell no Windows usando apenas um comand
      ```
      irm https://github.com/gabrielmf1998/PWSH-7-Instalador/releases/download/pwsh7executor/PWSH7-Executor.ps1 | iex
      ```
+   - **Caso seja Windows Server 2016, precisa alterar TLS para 1.2**: 🚀
+     ```
+     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+     ```
